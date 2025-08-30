@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+.choice-button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: skyblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.choice-button:hover {
+    background-color: deepskyblue;
+    border: 2px solid black;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.choice-image{
+    height: 75px;
+}
+.current-score{
+    background-color: aqua;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+}
+.reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(225, 43, 80);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
